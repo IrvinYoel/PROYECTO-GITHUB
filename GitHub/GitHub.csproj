@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Calculadora Basica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calculadora Basica.Designer.cs">
+      <DependentUpon>Calculadora Basica.cs</DependentUpon>
+    </Compile>
     <Compile Include="Compra.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Calculadora Basica.resx">
+      <DependentUpon>Calculadora Basica.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
